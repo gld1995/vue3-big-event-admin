@@ -15,7 +15,12 @@
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
     "prepare": "husky install",
-    "lint-staged": "{ '*.{js,ts,vue}': [ 'eslint --fix ] }"
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "eslint --fix"
+    ]
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.2",

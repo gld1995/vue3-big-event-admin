@@ -32,7 +32,6 @@ export default defineConfigWithVueTs(
   vueTsConfigs.recommended,
   skipFormatting,
   eslintConfigPrettier,
-
   {
     plugins: {
       prettier: prettierPlugin
