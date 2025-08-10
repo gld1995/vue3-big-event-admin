@@ -36,7 +36,7 @@ instance.interceptors.response.use(
   (err) => {
     // TODO 5. 处理401错误
     if (err.response?.status === 401) {
-      router.push('./login')
+      router.push('/login')
     }
 
     ElMessage.error(err.response.data.message || '服务异常')

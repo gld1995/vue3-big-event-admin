@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { User, Lock } from '@element-plus/icons-vue'
-import { userRegisterService, userLoginService } from '@/api/user.ts'
+import { userRegisterService, userLoginService } from '@/api/user'
 import { ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useUserStore } from '@/stores'

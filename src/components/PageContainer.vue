@@ -11,7 +11,7 @@ console.log('props', props)
     <template #header>
       <div class="header">
         <span>{{ title }}</span>
-        <slot name="extra"><el-button>按钮</el-button> </slot>
+        <slot name="extra"> </slot>
       </div>
     </template>
     <slot>默认内容</slot>

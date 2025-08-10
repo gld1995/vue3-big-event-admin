@@ -32,7 +32,6 @@ const rules = {
 const open = (row) => {
   dialogVisible.value = true
   formModel.value = { ...row }
-  console.log(row)
 }
 
 const onSubmit = async () => {
